@@ -1,0 +1,47 @@
+.author {
+    color: #E5C439;
+    max-width: 800px;
+    margin: 40px auto;
+    font-size: 40px;
+}
+.quote {
+    margin: 30px auto auto auto;
+    max-width: 800px;
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+    animation-name: quote;
+    animation-duration: 4s;
+}
+@media only screen and (max-width: 1024px) {
+    .author {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .quote {
+        font-size: 40px;
+        margin: 60px auto auto auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .author {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .quote {
+        font-size: 30px;
+        margin: 40px 20px auto 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .author {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .quote {
+        font-size: 20px;
+        margin: 40px 20px auto 20px;
+    }
+}

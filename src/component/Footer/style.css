@@ -1,0 +1,56 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.icons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons div {
+    margin: 0 20px 0 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #E5C439;
+    color: #fff;
+}
+
+.icons div:hover {
+    background-color: #393e46;
+    color: #E5C439;
+    border: 1px solid #E5C439;
+    transition: all 0.3s ease-in;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .icons div {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .icons div {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .icons div {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}

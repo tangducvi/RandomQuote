@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Goblin One', cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.result {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.history.com/the-obama-years/imgs/race-obama-ferguson.jpg");
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 1024px) {
+  .image {
+    background-image: url("https://media.gq.com/photos/564247823cc8fcfe0e19fd33/master/w_1641,h_2000,c_limit/obama-gq-1215-02.jpg");
+    background-size: cover;
   }
 }

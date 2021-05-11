@@ -1,0 +1,51 @@
+.quote-container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.change-quote {
+    background-color: #E5C439;
+    color: #fff;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.change-quote:hover {
+    background-color: #393e46;
+    color: #E5C439;
+    border: 1px solid #E5C439;
+    transition: all 0.3s ease-in;
+}
+
+@media only screen and (max-width: 1024px) {
+    .change-quote {
+        color: #fff;
+        padding: 15px 20px;
+        margin-top: 80px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .change-quote {
+        color: #fff;
+        padding: 15px 20px;
+        margin-top: 40px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .change-quote {
+        color: #fff;
+        padding: 15px 15px;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+}
